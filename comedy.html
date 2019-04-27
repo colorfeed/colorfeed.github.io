@@ -1,0 +1,392 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel="icon" href="cover/film%20color.png" type="image/gif" sizes="18x18">
+    <script src="script.js"></script>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <!--libraries to include needed icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>ColorFeed-Comedy</title>
+
+
+
+
+</head>
+
+<body>
+    <!-- the top scroller-->
+    <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+
+
+
+    <div id="body">
+
+        <div class="idM">
+
+        </div>
+
+        <a id="spc" href="home.html"> <img src="cover/logo.png" alt="logo" width="400" height="150" /></a>
+
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <div class="subnav">
+                <button class="subnavbtn">  <a class="active" href="movies.html">Movie</a> </button>
+                <div class="subnav-content">
+                    <a href="action.html">Action</a>
+                    <a href="horror.html">Horror</a>
+                    <a href="comedy.html">Comedy</a>
+                    <a href="romance.html">Romance</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">  <a href="tvshows.html">TV Shows</a> </button>
+                <div class="subnav-content">
+                    <a href="anime.html">Anime</a>
+                    <a href="series.html">Series</a>
+
+                </div>
+            </div>
+            <a href="News.html">News</a>
+            <a href="registeration.html" class="reg">Login</a>
+            <input type="text" placeholder="Search..">
+        </div>
+
+
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>&nbsp;>&nbsp;</li>
+            <li><a href="movies.html">Movies</a></li>
+            <li>&nbsp;>&nbsp;</li>
+            <li><a href="comedy.html">Comedy</a></li>
+
+        </ul>
+        <!--first movie-->
+        <!--the poster-->
+        <div class="row1">
+            <div class="container">
+
+                <img src="comedy/jumanji.png" class="img1"  alt="Jumanji"/>
+                <p><span class="Mname">Jumanji: Welcome to the Jungle</span></p>
+
+
+
+            </div>
+            <div class="container1">
+
+
+                <!--movie info-->
+                <table class="table">
+                    <tr>
+                        <td class="table-rating">Rating &nbsp;</td>
+                        <td class="table1"><span class="rategreen">9.4</span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-year">Year:</td>
+                        <td class="table2"><span class="year">December 5, 2017</span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-brief">Brief:</td>
+                        <td class="table3">
+                            DescriptionFour high school kids discover an old video game console and are drawn into the game's jungle setting, literally becoming the adult avatars they chose. What they discover is that you don't just play Jumanji - you must survive it.
+                            -<span id="dots">...</span><!--atfer the bottom more--><span id="more">
+                                To beat the game and return to the real world, they'll have to go on the most dangerous adventure of their lives, discover what Alan Parrish left 20 years ago, and change the way they think about themselves - or they'll be stuck in the game forever. -
+                            </span><button onclick="myFunction()" id="myBtn">Read more</button>
+
+
+
+
+                        </td>
+
+                    </tr>
+
+
+                </table>
+            </div>
+        </div>
+        <!--Cast-->
+        <div>
+            <!--Head-->
+            <p class="castf">Cast</p>
+            <div class="row">
+                <div class="column2">
+                    <img class="cast" src="cast/DwayneJohnson.jpg" alt="Dwayne Johnson" /><a href="https://en.wikipedia.org/wiki/Dwayne_Johnson" target="_blank">DwayneJohnson</a><span class="role">Dr. Smolder Bravestone</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/KevinHart.jpg" alt="Kevin Hart" /><a href="https://en.wikipedia.org/wiki/Kevin_Hart" target="_blank"> Kevin Hart</a><span class="role">Franklin Finbar</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/KarenGillan.jpg" alt="Karen Gillan" /><a href="https://en.wikipedia.org/wiki/Karen_Gillan" target="_blank"> Karen Gillan</a> <span class="role">Ruby Roundhouse</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/JackBlack.jpg" alt="Jack Black" /> <a href="https://en.wikipedia.org/wiki/Jack_Black" target="_blank">Jack Black</a><span class="role">Professor Shelly Oberon</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/AlexWolff.jpg" alt="AlexWolff" /> <a href="https://en.wikipedia.org/wiki/Alex_Wolff" target="_blank">Alex Wolff</a><span class="role">Spencer</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/MorganTurner.jpg" alt="Morgan Turner" /> <a href="https://en.wikipedia.org/wiki/Morgan_Turner" target="_blank">Morgan Turner</a><span class="role">Martha</span>
+                </div>
+
+            </div>
+            <hr />
+        </div>
+        <!--Trailer-->
+        <div>
+            <p class="castT">Watch the Trailer &nbsp;&nbsp;<i class="fas fa-video"></i></p>
+            <div class="row">
+                <div class="columnVT">
+                    <iframe class="videoT" src="https://www.youtube.com/embed/2QKg5SZ_35I"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3 class="tr">
+                        Jumanji: Welcome to the Jungle
+                    </h3>
+                </div>
+                <!--User rating-->
+
+                <div class="Rating">
+
+                    <label><span class="myrate">Rate this movie out of 10 <i class="fas fa-film"></i>:</span></label><br /><br />
+                    <input type="number" name="myChoice" 
+                           min="1" max="10"><br /><br />
+                    <form action="comedy.html" method="post">
+                        <textarea placeholder="Enter your comment" name="Add" id="Add" cols="40"
+                                  rows="3"></textarea><br><br>
+                        <button type="submit" name="submit" value="submit">Send</button>
+                        <button type="reset" name="reset" value="reset">Reset</button>
+                    </form>
+                </div>
+
+                <!-- Other Sites Rating table-->
+                <table class="t01">
+                    <tr>
+                        <th colspan="2">Rating on Other Sites </th>
+                    </tr>
+                    <tr>
+                        <td class=headtable>Rotten Tomatoes</td>
+                        <td>3.2/5</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>IMBD</td>
+                        <td>Smith</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>Fandango</td>
+                        <td>4 Stars</td>
+
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <hr class="bord" />
+
+
+        <!--second movie-->
+        <!--the poster-->
+        <div class="row1">
+            <div class="container">
+
+                <img src="comedy/ThatAwkwardMoment.jpg" class="img1" alt="That Awkward Moment" />
+                <p><span class="Mname">That Awkward Moment</span></p>
+
+
+
+            </div>
+            <div class="container1">
+
+
+                <!--movie info-->
+                <table class="table">
+                    <tr>
+                        <td class="table-rating">Rating &nbsp;</td>
+                        <td class="table1"><span class="rate-orange">6.2</span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-year">Year:</td>
+                        <td class="table2"><span class="year">January 27, 2014 </span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-brief">Brief:</td>
+                        <td class="table3">
+                            Best pals Jason (Zac Efron) and Daniel (Miles Teller) indulge in casual flings and revel in their carefree, unattached lives. After learning that the marriage of their friend Mikey (Michael B. Jordan) is over, they gladly welcome him back into their circle.
+                            -<span id="dots1">...</span><!--atfer the bottom more--><span id="more1">
+                                The three young men make a pact to have fun and avoid commitment. However, when all three find themselves involved in serious relationships, they must keep their romances secret from one another.
+                            </span><button onclick="myFunction1()" id="myBtn2">Read more</button>
+
+
+
+
+
+
+
+
+                        </td>
+
+                    </tr>
+
+
+                </table>
+            </div>
+        </div>
+        <!--Cast-->
+        <div>
+            <!--Head-->
+            <p class="castf">Cast</p>
+            <div class="row">
+                <div class="column2">
+                    <img class="cast" src="cast/ZacEfron.jpg" alt="Zac Efron" /><a href="https://en.wikipedia.org/wiki/Jason_Momoa" target="_blank">Zac Efron</a><span class="role">Jason</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/MilesTeller.jpg" alt="Miles Teller" /><a href="https://en.wikipedia.org/wiki/Amber_Heard" target="_blank">Miles Teller</a><span class="role">Daniel</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/MichaelBJordan.jpg" alt="Michael B. Jordan" /><a href="https://en.wikipedia.org/wiki/Patrick_Wilson_(American_actor)" target="_blank"> Michael B. Jordan</a> <span>Mickey</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/ImogenPoots.jpg" alt="Imogen Poots" /> <a href="https://en.wikipedia.org/wiki/Nicole_Kidman" target="_blank">Imogen Poots</a><span>Ellie</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/MackenzieDavis.jpg" alt="Mackenzie Davis" /> <a href="https://en.wikipedia.org/wiki/Willem_Dafoe" target="_blank">Mackenzie Davis</a><span>Chelsea</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/TomGormican.jpg" alt="Tom Gormican" /> <a href="https://en.wikipedia.org/wiki/Willem_Dafoe" target="_blank">Tom Gormican</a><span>Director</span>
+                </div>
+            </div>
+            <hr />
+        </div>
+        <!--Trailer-->
+        <div>
+            <p class="castT">Watch the Trailer &nbsp;&nbsp;<i class="fas fa-video"></i></p>
+            <div class="row">
+                <div class="columnVT">
+                    <iframe class="videoT" src="https://www.youtube.com/embed/wRcVgJjnFLo"  allow="accelerometer;
+             autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <h3 class="tr">
+                        That Awkward Moment
+                    </h3>
+                </div>
+                <!--User rating-->
+
+                <div class="Rating">
+
+                    <label><span class="myrate">Rate this movie out of 10 <i class="fas fa-film"></i>:</span></label><br /><br />
+                    <input type="number" name="myChoice" 
+                           min="1" max="10"><br /><br />
+                    <form action="comedy.html" method="post">
+                        <textarea placeholder="Enter your comment" name="Add"  cols="40"
+                                  rows="3"></textarea><br><br>
+                        <button type="submit" name="submit" value="submit">Send</button>
+                        <button type="reset" name="reset" value="reset">Reset</button>
+                    </form>
+                </div>
+
+                <!-- Other Sites Rating table-->
+                <table class="t01">
+                    <tr>
+                        <th colspan="2">Rating on Other Sites </th>
+                    </tr>
+                    <tr>
+                        <td class=headtable>Rotten Tomatoes</td>
+                        <td>3.2/5</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>IMBD</td>
+                        <td>Smith</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>Fandango</td>
+                        <td>4 Stars</td>
+
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+        <hr id="seperate">
+
+        <p id="Likefont"> You might also like..</p>
+
+        <div id="seperate2">
+            <div id="alsolike">
+
+                <div id="Like1">
+                    <img src="comedy/21JS.jpg" alt="21 jump street">
+                    <p>21 Jump Street</p>
+                </div>
+
+                <div id="Like2">
+                    <img src="comedy/GameNight.jpg" alt="game night">
+                    <p>Game Night</p>
+                </div>
+
+                <div id="countdown">
+                    <p id="comingsoon"> Coming Soon</p>
+                    <img src="comedy/NightSchool.jpg" alt="night school">
+
+                    <p id="demo"></p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Site footer -->
+    <footer>
+        <div class="footer-main-div">
+
+            <!-- Footer Navigation -->
+            <div class="footer-menu-one">
+                <h3>CATEGORIES: </h3>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="movies.html">MOVIES</a></li>
+                    <li><a href="tvshows.html">TV SHOWS</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                </ul>
+            </div>
+            <!-- Footer Contact -->
+            <div class="footer-menu-two">
+                <h3>CONTACT:</h3>
+                <ul>
+                    <li>Contact@colorfeed.com</li>
+                    <li>+20 1234 5678</li>
+                    <li>Copyright &copy; ColorFeed 2019, All Rights Reserved.</li>
+                </ul>
+            </div>
+            <!-- Footer Social-->
+            <div class="footer-social-icons">
+                <h3>Our Social Accounts:</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.yotube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

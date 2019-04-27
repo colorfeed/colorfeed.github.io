@@ -1,0 +1,300 @@
+#bodyr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 80%;
+    background-image: linear-gradient(#fff,gray);
+    margin-bottom: 100px;
+    margin-bottom: 10%;
+    max-width: 100%;
+    padding-top: 0%;
+    padding-bottom: 10%;
+    margin-bottom: 0%;
+}
+
+.reg-page{
+
+    min-width: 350px;
+    width: 35%;
+    padding-top:10%;
+    margin: auto;
+}
+
+.form-title{
+    margin: 0 0 30px 0;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-shadow: 0 0 1px blue;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+
+
+.form{
+    position: relative;
+    z-index: 1;
+    background:rgba(0,0,190,0.6);  
+    margin: 0 auto 100px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form input{
+    border:0px;
+    background-color:lightgray;
+    color: black;
+    width: 100%;
+    font-size: 15px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+
+.form button{
+    outline: 0;
+    background-color: darkturquoise;
+    width: 100%;
+    border:0;
+    cursor: pointer;
+    padding: 15px;
+    color:#FFFFFF;
+    font-size:15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+.form button:hover{
+    background-color:dodgerblue;
+}
+
+.form .switchtabs{
+    font-family: sans-serif;
+    margin:15px 0 0;
+    color:aliceblue;
+    font-size:13px;
+    font-weight: bold;
+    
+}
+
+.form .switchtabs a{
+    color:black;
+    
+}
+
+.form .reg-form{
+    display:none;
+}
+
+.wrapper{
+    width:90%;
+    height:90%;
+}
+.greenpanel{
+    margin:20px 0 20px 0;
+    background-image: linear-gradient(90deg, greenyellow, lightgray);
+    width:100%;
+   
+}
+.redpanel{
+    margin:20px 0 20px 0;
+    background-image: linear-gradient(90deg, indianred, lightgray);
+    
+    width:100%;
+}
+.orangepanel{
+    margin:20px 0 20px 0;
+    background-image: linear-gradient(90deg, orange, lightgray);
+    width:100%;
+}
+
+.cover-title{
+    margin-left:5%;
+    width:25%;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.movie-info{
+   display:inline-block;
+    width:50%;
+    margin-left: -2%;
+}
+
+
+
+.title-panel{
+    
+    font-size: 25px;
+    padding-bottom:1px;
+    margin-left:5%;
+}
+
+
+.rating1{
+    padding: 1px 4px 1px;
+    position: relative;
+    left:45%;
+    font-size: 22px;
+}
+
+.rating2{
+    padding: 1px 4px 1px;
+    position: relative;
+    left:75%;
+    font-size: 22px;
+}
+
+.series-story{
+    font-size: 15px;
+    width:60%;
+    display: inline-block;
+    margin-top: -8%;
+    
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+    
+}
+.row .column img{
+  display: flex;
+    
+}
+
+.column img{
+    border-radius: 50%;
+    width:20%;
+    background-color: green;
+    padding: 0.5%;
+     
+    
+}
+
+.cast-panel{
+    font-size: 25px;
+    font-weight: bold;
+   background-image: linear-gradient(90deg, deepskyblue, lightgray);
+    width:100%;
+    border-radius: 25px;
+    padding-left: 10px;
+
+}
+
+.trailer{
+    margin-left: 69%;
+    margin-top: -61%;
+}
+
+.trailer p{
+    font-size:22px;
+    margin-bottom: 10%;
+    margin-top: 33%;
+    background-image: linear-gradient(90deg, deepskyblue, lightgray);
+    padding-left: 10px;
+    font-weight: bold;
+    border-radius:25px;
+}
+
+.series-story .heading{
+    
+    font-size:22px;
+    margin-top:12.5%;
+    margin-left: -2%;
+    background-image: linear-gradient(90deg, deepskyblue, lightgray);
+    border-radius: 25px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.review-box{
+    width:52%;
+    height:50px;
+    resize:none;
+    margin-top: 0%;
+}
+
+.submit-button{
+    width:10%;
+    margin-left:43%;
+  
+}
+
+.actors-name{
+    text-shadow: 0 0 1px green;
+    font-size: 14px;
+    margin-right: 79%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+    
+}
+
+.rating p{
+    margin-top: -30%;
+    font-size: 20px;
+    margin-right:5%;
+}
+
+.details-panel{
+    margin-left: 5%;
+    width:25%;
+    font-size:22px;
+    background-image: linear-gradient(90deg, deepskyblue, lightgray);
+    border-radius: 25px;
+    padding-left: 1%;
+    font-weight: bold;
+}
+
+.details-list{
+    font-size: 16px;
+    list-style-type: none;
+    margin-left: 2.5%;
+    margin-top: -1%;
+    font-family: Helvetica;
+}
+
+
+
+.rating {
+    font-size: 12px;
+    margin-left: 63%;
+    margin-top:3%;
+}
+
+
+
+.rating .heading{
+    
+    width:35%;
+    font-size:22px;
+    background-image: linear-gradient(90deg, deepskyblue, lightgray);
+    border-radius: 25px;
+    padding-left: 2%;
+    padding-right: 20%;
+    font-weight: bold;
+
+}
+
+
+.seperator{
+    margin-top: 10%;
+}
+
+.trailer-video{
+    width:200%;
+    height:220px;
+    border: none;
+    
+    
+}

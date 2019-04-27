@@ -1,0 +1,392 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel="icon" href="cover/film%20color.png" type="image/gif" sizes="18x18">
+    <script src="script.js"></script>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>ColorFeed - Horror</title>
+
+
+
+
+
+</head>
+
+<body>
+    <!-- the top scroller-->
+    <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+
+
+
+    <div id="body">
+
+        <div class="idM">
+
+        </div>
+
+        <a id="spc" href="home.html"> <img src="cover/logo.png" alt="logo" width="400" height="150" /></a>
+
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <div class="subnav">
+                <button class="subnavbtn">  <a href="movies.html">Movie</a> </button>
+                <div class="subnav-content">
+                    <a href="action.html">Action</a>
+                    <a href="horror.html">Horror</a>
+                    <a href="comedy.html">Comedy</a>
+                    <a href="romance.html">Romance</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">  <a href="tvshows.html">TV Shows</a> </button>
+                <div class="subnav-content">
+                    <a href="anime.html">Anime</a>
+                    <a href="series.html">Series</a>
+
+                </div>
+            </div>
+            <a href="News.html">News</a>
+            <a href="registeration.html" class="reg">Login</a>
+            <input type="text" placeholder="Search..">
+        </div>
+
+
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>&nbsp;>&nbsp;</li>
+            <li><a href="movies.html">Movies</a></li>
+            <li>&nbsp;>&nbsp;</li>
+            <li><a href="horror.html">Horror</a></li>
+
+        </ul>
+        <!--first movie-->
+        <!--the poster-->
+        <div class="row1">
+            <div class="container">
+
+                <img src="horror/dont.jpg" class="img1" alt="Dont Breath" />
+                <p><span class="Mname">Don't Breathe</span></p>
+
+
+
+            </div>
+            <div class="container1">
+
+
+                <!--movie info-->
+                <table class="table">
+                    <tr>
+                        <td class="table-rating">Rating &nbsp;</td>
+                        <td class="table1"><span class="rategreen">8.2</span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-year">Year:</td>
+                        <td class="table2"><span class="year">26 August 2016</span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-brief">Brief:</td>
+                        <td class="table3">
+                            Rocky, a young woman wanting to start a better life for her and her sister, agrees to take part in the robbery of a house owned by a wealthy blind man with her boyfriend Money and their friend Alex.
+                            -<span id="dots">...</span><!--atfer the bottom more--><span id="more">
+                                But when the blind man turns out to be a more ruthless adversary than he seems, the group must find a way to escape his home before they become his latest victims.
+                            </span><button onclick="myFunction()" id="myBtn">Read more</button>
+
+
+
+
+                        </td>
+
+                    </tr>
+
+
+                </table>
+            </div>
+        </div>
+        <!--Cast-->
+        <div>
+            <!--Head-->
+            <p class="castf">Cast</p>
+            <div class="row">
+                <div class="column2">
+                    <img class="cast" src="cast/StepenLang.jpg" alt="Stephen Lang" /><a href="https://en.wikipedia.org/wiki/Stephen_Lang" target="_blank">Stephen Lang</a><span class="role">The Blind Man</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/JaneLevy.jpg" alt="Jane Levy" /><a href="https://en.wikipedia.org/wiki/Jane_Levy" target="_blank">Jane Levy</a><span class="role">Rocky</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/DylanMinnette.jpg" alt="Dylan Minnette" /><a href="https://en.wikipedia.org/wiki/Dylan_Minnette" target="_blank"> Dylan Minnette</a> <span class="role">Alex</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/DanielZovatto.jpg" alt="Jack Black" /> <a href="https://en.wikipedia.org/wiki/Daniel_Zovatto" target="_blank">Daniel Zovatto</a><span class="role">Money</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/EmmaBercovici.jpg" alt="Emma Bercovici" /> <a href="#" target="_blank">Emma Bercovici</a><span class="role">Diddy</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/FranciskaTorocsik.jpg" alt="Franciska Töröcsik" /> <a href="#" target="_blank">Franciska Töröcsik</a><span class="role">Cindy</span>
+                </div>
+
+            </div>
+            <hr />
+        </div>
+        <!--Trailer-->
+        <div>
+            <p class="castT">Watch the Trailer &nbsp;&nbsp;<i class="fas fa-video"></i></p>
+            <div class="row">
+                <div class="columnVT">
+                    <iframe class="videoT" src="https://youtube.com/embed/76yBTNDB6vU"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3 class="tr">
+                        Don't Breathe - Official Trailer
+                    </h3>
+                </div>
+                <!--User rating-->
+
+                <div class="Rating">
+
+                    <label><span class="myrate">Rate this movie out of 10 <i class="fas fa-film"></i>:</span></label><br /><br />
+                    <input type="number" name="myChoice"
+                           min="1" max="10"><br /><br />
+                    <form action="horror.html" method="post">
+                        <textarea placeholder="Enter your comment" name="Add" id="Add" cols="40"
+                                  rows="3"></textarea><br><br>
+                        <button type="submit" name="submit" value="submit">Send</button>
+                        <button type="reset" name="reset" value="reset">Reset</button>
+                    </form>
+                </div>
+
+                <!-- Other Sites Rating table-->
+                <table class="t01">
+                    <tr>
+                        <th colspan="2">Rating on Other Sites </th>
+                    </tr>
+                    <tr>
+                        <td class=headtable>Rotten Tomatoes</td>
+                        <td>88%</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>IMBD</td>
+                        <td>7.1/10</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>Fandango</td>
+                        <td>4 Stars</td>
+
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <hr class="bord" />
+
+
+        <!--second movie-->
+        <!--the poster-->
+        <div class="row1">
+            <div class="container">
+
+                <img src="horror/It.jpg" class="img1" alt="It" />
+                <p><span class="Mname">It</span></p>
+
+
+
+            </div>
+            <div class="container1">
+
+
+                <!--movie info-->
+                <table class="table">
+                    <tr>
+                        <td class="table-rating">Rating &nbsp;</td>
+                        <td class="table1"><span class="rate-orange">7.3</span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-year">Year:</td>
+                        <td class="table2"><span class="year">September 8, 2017</span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-brief">Brief:</td>
+                        <td class="table3">
+                            In the Town of Derry, the local kids are disappearing one by one. In a place known as 'The Barrens',
+                            -<span id="dots1">...</span><!--atfer the bottom more--><span id="more1">
+                                a group of seven kids are united by their horrifying and strange encounters with an evil clown and their determination to kill It.
+                            </span><button onclick="myFunction1()" id="myBtn2">Read more</button>
+
+
+
+
+
+
+
+
+                        </td>
+
+                    </tr>
+
+
+                </table>
+            </div>
+        </div>
+        <!--Cast-->
+        <div>
+            <!--Head-->
+            <p class="castf">Cast</p>
+            <div class="row">
+                <div class="column2">
+                    <img class="cast" src="cast/JaedenMartell.jpg" alt="Jaeden Martell" /><a href="https://en.wikipedia.org/wiki/Jaeden_Martell" target="_blank">Jaeden Martell</a><span class="role">Bill Denbrough</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/JeremyRayTaylor.jpg" alt="Jeremy Ray Taylor" /><a href="https://en.wikipedia.org/wiki/Jeremy_Ray_Taylor" target="_blank">Jeremy Ray Taylor</a><span class="role">Ben Hanscom</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/SophiaLillis.jpg" alt="Sophia Lillis" /><a href="https://en.wikipedia.org/wiki/Sophia_Lillis" target="_blank">Sophia Lillis</a><span>Beverly Marsh</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/FinnWolfhard.jpg" alt="Finn Wolfhard" /> <a href="https://en.wikipedia.org/wiki/Finn_Wolfhard" target="_blank">Finn Wolfhard</a><span>Richie Tozier</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/ChosenJacobs.jpg" alt="Chosen Jacobs" /> <a href="https://en.wikipedia.org/wiki/Chosen_Jacobs" target="_blank">Chosen Jacobs</a><span>Mike Hanlon</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/AndyMuschiette.jpg" alt="Andy Muschietti" /> <a href="https://en.wikipedia.org/wiki/Andy_Muschietti" target="_blank">Andy Muschietti</a><span>Director</span>
+                </div>
+            </div>
+            <hr />
+        </div>
+        <!--Trailer-->
+        <div>
+            <p class="castT">Watch the Trailer &nbsp;&nbsp;<i class="fas fa-video"></i></p>
+            <div class="row">
+                <div class="columnVT">
+                    <iframe class="videoT" src="https://www.youtube.com/embed/FnCdOQsX5kc"  allow="accelerometer;
+             autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <h3 class="tr">
+                        It - Official Teaser Trailer
+                    </h3>
+                </div>
+                <!--User rating-->
+
+                <div class="Rating">
+
+                    <label><span class="myrate">Rate this movie out of 10 <i class="fas fa-film"></i>:</span></label><br /><br />
+                    <input type="number" name="myChoice" 
+                           min="1" max="10"><br /><br />
+                    <form action="horror.html" method="post">
+                        <textarea placeholder="Enter your comment" name="Add"  cols="40"
+                                  rows="3"></textarea><br><br>
+                        <button type="submit" name="submit" value="submit">Send</button>
+                        <button type="reset" name="reset" value="reset">Reset</button>
+                    </form>
+                </div>
+
+                <!-- Other Sites Rating table-->
+                <table class="t01">
+                    <tr>
+                        <th colspan="2">Rating on Other Sites </th>
+                    </tr>
+                    <tr>
+                        <td class=headtable>Rotten Tomatoes</td>
+                        <td>85%</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>IMBD</td>
+                        <td>7.4/10</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>Fandango</td>
+                        <td>4.5 Stars</td>
+
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+        <hr id="seperate">
+
+        <p id="Likefont"> You might also like..</p>
+
+        <div id="seperate2">
+            <div id="alsolike">
+
+                <div id="Like1">
+                    <img src="horror/GetOut.png" alt="Get Out" class="immg">
+                    <p>Get out</p>
+                </div>
+
+                <div id="Like2">
+                    <img src="horror/Hereditary.jpg" alt="Hereditary" class="immg">
+                    <p>Hereditary</p>
+                </div>
+
+                <div id="countdown">
+                    <p id="comingsoon"> Coming Soon</p>
+                    <img src="cast/TheIntruder.jpg" alt="The Intruder">
+
+                    <p id="demo"></p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Site footer -->
+    <footer>
+        <div class="footer-main-div">
+
+            <!-- Footer Navigation -->
+            <div class="footer-menu-one">
+                <h3>CATEGORIES: </h3>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="movies.html">MOVIES</a></li>
+                    <li><a href="tvshows.html">TV SHOWS</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                </ul>
+            </div>
+            <!-- Footer Contact -->
+            <div class="footer-menu-two">
+                <h3>CONTACT:</h3>
+                <ul>
+                    <li>Contact@colorfeed.com</li>
+                    <li>+20 1234 5678</li>
+                    <li>Copyright &copy; ColorFeed 2019, All Rights Reserved.</li>
+                </ul>
+            </div>
+            <!-- Footer Social-->
+            <div class="footer-social-icons">
+                <h3>Our Social Accounts:</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.yotube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

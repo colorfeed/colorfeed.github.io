@@ -1,0 +1,281 @@
+﻿    <!DOCTYPE html>
+
+    <html lang="en">
+    <head>
+        <link rel="icon" href="cover/film%20color.png" type="image/gif" sizes="18x18">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+
+
+        <meta charset="utf-8" />
+        <title>ColorFeed -  Series</title>
+    </head>
+
+    <body>
+      
+        <!-- the top scroller-->
+        <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        <div id="body">
+            <div id="id">
+
+            </div>
+
+            <a id="spc" href="home.html"> <img src="cover/logo.png" alt="logo" width="400" height="150" /></a>
+
+            <div class="topnav">
+                <a href="index.html">Home</a>
+                <div class="subnav">
+                    <button class="subnavbtn"> <a href="movies.html"> Movie</a></button>
+                    <div class="subnav-content">
+                        <a href="action.html">Action</a>
+                        <a href="horror.html">Horror</a>
+                        <a href="comedy.html">Comedy</a>
+                        <a href="romance.html">Romance</a>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn">  <a href="tvshows.html" class="active">TV Shows</a> </button>
+                    <div class="subnav-content">
+                        <a href="anime.html">Anime</a>
+                        <a href="series.html">Series</a>
+
+                    </div>
+                </div>
+                <a href="News.html">News</a>
+                <a href="registeration.html" class="reg">Login</a>
+                <input type="text" placeholder="Search..">
+            </div>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>&nbsp;>&nbsp;</li>
+                <li><a href="movies.html">Movies</a></li>
+                <li>&nbsp;>&nbsp;</li>
+                <li><a href="series.html">Series</a></li>
+
+            </ul>
+
+
+
+            <div id="wrapper">
+
+                <div class="greenpanel"><p class="seriestitle"><span class="title-panel">Game of Thrones (Seasons 1-8)</span><span class="rating1">Rating: 9.5/10</span></p></div>
+
+                <div class="fullseries">
+                    <div class="cover-title">
+                        <img src="series/got.jpeg" alt="Game of Thrones" />
+                        <div class="cast-panel"><p>Cast</p></div>
+                        <div class="row">
+                            <div class="column">
+                                <img src="cast/PeterDinklage.jpg" alt="Peter Dinklage">
+                                <p class="actors-name"><a href="https://en.wikipedia.org/wiki/Peter_Dinklage">Peter Dinklage</a></p>
+                            </div>
+                            <div class="column">
+                                <img src="cast/LenaHeadey.jpg" alt="Lena Headey">
+                                <p class="actors-name"><a href="https://en.wikipedia.org/wiki/Lena_Headey" target="_blank">Lena Headey</a></p>
+                            </div>
+                            <div class="column">
+                                <img src="cast/EmiliaClarke.jpg" alt="Emilia Clarke">
+                                <p class="actors-name"><a href="https://en.wikipedia.org/wiki/Emilia_Clarke" target="_blank">Emilia Clarke</a></p>
+                            </div>
+                            <div class="column">
+                                <img src="cast/KitHarington.jpg" alt="Kit Harington">
+                                <p class="actors-name"><a href="https://en.wikipedia.org/wiki/Kit_Harington" target="_blank">Kit Harington</a></p>
+                            </div>
+                            <div class="column">
+                                <img src="cast/SophieTurner.jpg" alt="Sophie Turner">
+                                <p class="actors-name"><a href="https://en.wikipedia.org/wiki/Sophie_Turner" target="_blank">Sophie Turner</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="movie-info">
+
+                        <div class="series-story"><p class="heading">Story</p><p>In the mythical continent of Westeros, several powerful families fight for control of the Seven Kingdoms. As conflict erupts in the kingdoms of men, an ancient enemy rises once again to threaten them all. Meanwhile, the last heirs of a recently usurped dynasty plot to take back their homeland from across the Narrow Sea. </p></div>
+                        <div>
+
+                            <form class="review">
+                                <textarea class="review-box" placeholder="Write you review here.."> </textarea><br>
+                                <input type="submit" name="submit" value="Submit" class="submit-button">
+                            </form>
+                        </div>
+                        <div class="trailer">
+                            <p>Trailer</p><iframe src="https://www.youtube.com/embed/BpJYNVhGf1s" class="trailer-video"></iframe>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="details-panel">
+                    <p class="heading">Details</p>
+                </div>
+
+                <div>
+                    <ul class="details-list">
+                        <li>Genres: Action | Drama | Fantasy | Romance</li>
+                        <li>Language: English</li>
+                        <li>Release Date: 17 April 2011</li>
+                        <li>Number of seasons: 8</li>
+                    </ul>
+                </div>
+
+
+
+
+                <div class="rating">
+                    <p class="heading">Rate out of 10</p>
+                    <div class="Rating">
+
+                        <input type="number" name="myChoice" 
+                               min="1" max="10"><br /><br />
+                        <form action="tvseries.html" method="post">
+
+                            <button type="submit" name="submit" value="submit">Send</button>
+                            <button type="reset" name="reset" value="reset">Reset</button>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="seperator"></div>
+                <div class="orangepanel"><p class="seriestitle"><span class="title-panel">Peaky Blinders (Seasons 1-5)</span><span class="rating1">Rating: 7.8/10</span></p></div>
+
+                <div class="fullseries">
+                    <div class="cover-title">
+                        <img src="series/peakyblinders.jpg" alt="Peaky Blinders" />
+                        <div class="cast-panel"><p>Cast</p></div>
+                        <div class="row">
+                            <div class="column">
+                                <img src="cast/CillianMurphy.jpg" alt="Cillian Murphy">
+                                <p class="actors-name"><a href="https://en.wikipedia.org/wiki/Cillian_Murphy" target="_blank">Cillian Murphy</a></p>
+                            </div>
+                            <div class="column">
+                                <img src="cast/HelenMcCrory.jpg" alt="Helen McCrory">
+                                <p class="actors-name"><a href="https://en.wikipedia.org/wiki/Helen_McCrory" target="_blank">Helen McCrory</a></p>
+                            </div>
+                            <div class="column">
+                                <img src="cast/PaulAnderson.jpg" alt="Paul Anderson">
+                                <p class="actors-name"><a href="https://en.wikipedia.org/wiki/Paul_Anderson_(actor)" target="_blank">Paul Anderson</a></p>
+                            </div>
+                            <div class="column">
+                                <img src="cast/NedDennehy.jpg" alt="Ned Dennehy">
+                                <p class="actors-name"><a href="https://en.wikipedia.org/wiki/Ned_Dennehy" target="_blank">Ned Dennehy</a></p>
+                            </div>
+                            <div class="column">
+                                <img src="cast/SophieRundle.jpg" alt="Sophie Rundle">
+                                <p class="actors-name"><a href="https://en.wikipedia.org/wiki/Sophie_Rundle" target="_blank">Sophie Rundle</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="movie-info">
+
+                        <div class="series-story"><p class="heading">Story</p><p>Peaky Blinders is an English television crime drama set in 1920s Birmingham, England in the aftermath of World War I. The series, which was created by Steven Knight and produced by Caryn Mandabach Productions, Screen Yorkshire and Tiger Aspect Productions, follows the exploits of the Shelby crime family. Screen Yorkshire provided funding for the production through the Yorkshire Content Fund. It was the first production to receive funding from the Yorkshire Content Fund, which in turn made certain the majority of the show was filmed in Yorkshire as part of the deal. </p></div>
+                        <div>
+
+                            <form class="review">
+                                <textarea class="review-box" placeholder=" Write you review here.."></textarea><br>
+                                <input type="submit" name="submit" value="Submit" class="submit-button">
+                            </form>
+                        </div>
+                        <div class="trailer">
+                            <p style=margin-top:-35%;>Trailer</p><iframe src="https://www.youtube.com/embed/oVzVdvGIC7U" class="trailer-video"></iframe>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="details-panel">
+                    <p class="heading">Details</p>
+                </div>
+
+                <div>
+                    <ul class="details-list">
+                        <li>Genres: Crime | Drama | Romance</li>
+                        <li>Language: English | Romanian | Irish</li>
+                        <li>Release Date: 30 September 2014</li>
+                        <li>Number of seasons: 5</li>
+                    </ul>
+                </div>
+
+
+
+
+                <div class="rating">
+                    <p class="heading">Rate out of 10</p>
+                    <div class="Rating">
+
+                        <input type="number" name="myChoice" 
+                               min="1" max="10"><br /><br />
+                        <form action="tvseries.html" method="post">
+
+                            <button type="submit" name="submit" value="submit">Send</button>
+                            <button type="reset" name="reset" value="reset">Reset</button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="seperator"></div>
+
+
+
+            </div>
+
+
+
+            <!-- Site footer -->
+            <footer>
+                <div class="footer-main-div">
+
+                    <!-- Footer Navigation -->
+                    <div class="footer-menu-one">
+                        <h3>CATEGORIES: </h3>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="movies.html">MOVIES</a></li>
+                            <li><a href="tvshows.html">TV SHOWS</a></li>
+                            <li><a href="news.html">NEWS</a></li>
+                        </ul>
+                    </div>
+                    <!-- Footer Contact -->
+                    <div class="footer-menu-two">
+                        <h3>CONTACT:</h3>
+                        <ul>
+                            <li>Contact@colorfeed.com</li>
+                            <li>+20 1234 5678</li>
+                            <li>Copyright &copy; ColorFeed 2019, All Rights Reserved.</li>
+                        </ul>
+                    </div>
+                    <!-- Footer Social-->
+                    <div class="footer-social-icons">
+                        <h3>Our Social Accounts:</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.yotube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </footer>
+
+
+        </div>
+    </body>
+    
+
+</html>
+   
+    

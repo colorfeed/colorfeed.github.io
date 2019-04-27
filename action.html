@@ -1,0 +1,409 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel="icon" href="cover/film%20color.png" type="image/gif" sizes="18x18">
+    <script src="script.js"></script>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>ColorFeed-Action</title>
+
+
+
+</head>
+
+<body>
+    <!-- the top scroller-->
+    <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+
+
+    <div id="body">
+
+        <div class="idM">
+
+        </div>
+
+        <a id="spc" href="home.html"> <img src="cover/logo.png" alt="logo" width="400" height="150" /></a>
+
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <div class="subnav">
+                <button class="subnavbtn">  <a class="active" href="movies.html">Movie</a> </button>
+                <div class="subnav-content">
+                    <a href="action.html">Action</a>
+                    <a href="horror.html">Horror</a>
+                    <a href="comedy.html">Comedy</a>
+                    <a href="romance.html">Romance</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">  <a href="tvShows.html">TV Shows</a> </button>
+                <div class="subnav-content">
+                    <a href="anime.html">Anime</a>
+                    <a href="series.html">Series</a>
+
+                </div>
+            </div>
+            <a href="News.html">News</a>
+            <a href="registeration.html" class="reg">Login</a>
+            <input type="text" placeholder="Search..">
+        </div>
+
+
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>&nbsp;>&nbsp;</li>
+            <li><a href="movies.html">Movies</a></li>
+            <li>&nbsp;>&nbsp;</li>
+            <li><a href="action.html">Action</a></li>
+
+        </ul>
+        <!--first movie-->
+        <!--the poster-->
+        <div class="row1">
+            <div class="container">
+
+                <img src="action/Aquaman.png" class="img1" alt="aquaman" />
+                <p><span class="Mname">Aquaman</span></p>
+
+
+
+            </div>
+            <div class="container1">
+
+
+                <!--movie info-->
+                <table class="table">
+                    <tr>
+                        <td class="table-rating">Rating &nbsp;</td>
+                        <td class="table1"><span class="rategreen">9.4</span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-year">Year:</td>
+                        <td class="table2"><span class="year">December 19th, 2018</span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-brief">Brief:</td>
+                        <td class="table3">
+                            Once home to the most advanced civilization on Earth,
+                            the city of Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal,
+                            Orm plans to conquer the remaining oceanic people -
+                            -<span id="dots">...</span><!--atfer the bottom more--><span id="more">
+                                and then the surface world. Standing in his way is Aquaman,
+                                Orm's half-human, half-Atlantean brother and true heir to the throne.
+                                With help from royal counselor Vulko, Aquaman must retrieve the legendary
+                                Trident of Atlan and embrace his destiny as protector of the deep.
+                            </span><button onclick="myFunction()" id="myBtn">Read more</button>
+
+
+
+
+                        </td>
+
+                    </tr>
+
+
+                </table>
+            </div>
+        </div>
+        <!--Cast-->
+        <div class="casth">
+            <!--Head-->
+            <p class="castf">Cast</p>
+            <div class="row">
+                <div class="column2">
+                    <img class="cast" src="cast/JasonMomoa.jpg" alt="Jason Momoa" /><a href="https://en.wikipedia.org/wiki/Jason_Momoa" target="_blank"><span class="castname">Jason Momoa</span></a><span class="role">Aquaman</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/AmberHeard.jpg" alt="Amber Heard" /><a href="https://en.wikipedia.org/wiki/Amber_Heard" target="_blank"> Amber Heard</a><span class="role">Mera</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/PatrickWilson.jpg" alt="Patrick Wilson" /><a href="https://en.wikipedia.org/wiki/Patrick_Wilson_(American_actor)" target="_blank"> Patrick Wilson</a> <span>Ocean Master</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/NicoleKidman.jpg" alt="Nicole Kidman" /> <a href="https://en.wikipedia.org/wiki/Nicole_Kidman" target="_blank">Nicole Kidmane</a><span>Atlanta</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/WiliemDafoe.jpg" alt="Wiliem Dafoe" /> <a href="https://en.wikipedia.org/wiki/Willem_Dafoe" target="_blank"> Wiliem Dafoe</a><span>Nuidis Vulko</span>
+                </div>
+                <div class="column3">
+                    <img class="cast" src="cast/aquamand.jpg" alt="james wan" /> <a href="https://de.wikipedia.org/wiki/James_Wan" target="_blank">James Wan</a><span>Director</span>
+                </div>
+            </div>
+
+        </div>
+        <!--Trailer-->
+        <div class="casth">
+            <p class="castT">Watch the Trailer &nbsp;&nbsp;<i class="fas fa-video"></i></p>
+            <div class="row">
+                <div class="columnVT">
+                    <iframe class="videoT" src="https://www.youtube.com/embed/2wcj6SrX4zw"  allow="accelerometer;
+             autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <h3 class="tr">
+                        Aquaman
+                    </h3>
+                </div>
+                <!--User rating-->
+
+
+                <div class="Rating">
+
+                    <label for="myChoice"><span class="myrate">Rate this movie out of 10<i class="fas fa-film"></i>:</span></label><br /><br />
+                    <input type="number" name="myChoice" id="myChoice"
+                           min="1" max="10"><br /><br />
+                    <form action="action.html" method="post">
+                        <textarea placeholder="Enter your comment" name="Add" id="Add" cols="40"
+                                  rows="3"></textarea><br><br>
+                        <button type="submit" name="submit" value="submit">Send</button>
+                        <button type="reset" name="reset" value="reset">Reset</button>
+                    </form>
+
+                    <!--start of rating-->
+
+
+           
+
+                </div>
+                <!-- Other Sites Rating table-->
+                <table class="t01">
+                    <tr>
+                        <th colspan="2">Rating on Other Sites </th>
+                    </tr>
+                    <tr>
+                        <td class=headtable>Rotten Tomatoes</td>
+                        <td>78%</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>IMBD</td>
+                        <td>8.6/10</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>Fandango</td>
+                        <td>4 Stars</td>
+
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <hr class="bord" />
+        <!--second movie-->
+        <!--the poster-->
+        <div class="row1">
+            <div class="container">
+
+                <img src="action/MIFallout.jpg" class="img1" alt="mission imposible fallout" />
+                <p><span class="Mname">Mission Imposible Fallout</span></p>
+
+
+
+            </div>
+            <div class="container1">
+
+
+                <!--movie info-->
+                <table class="table">
+                    <tr>
+                        <td class="table-rating">Rating &nbsp;</td>
+                        <td class="table1"><span class="rate-orange">6.4</span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-year">Year:</td>
+                        <td class="table2"><span class="year">August 2, 2018</span></td>
+                    </tr>
+                    <tr>
+                        <td class="table-brief">Brief:</td>
+                        <td class="table3">
+                            Ethan Hunt and the IMF team join forces with CIA assassin August Walker to prevent a disaster of epic proportions.
+                            Arms dealer John Lark and a group of terrorists known as the Apostles plan to use three plutonium cores for a simultaneous nuclear
+                            attack on the Vatican,
+                            Jerusalem and Mecca, Saudi Arabia -
+                            -<span id="dots1">...</span><!--atfer the bottom more--><span id="more1">
+                                When the weapons go missing, Ethan and his crew find themselves in a desperate race against time to prevent them from falling into the wrong hands.
+                            </span><button onclick="myFunction1()" id="myBtn2">Read more</button>
+
+
+
+
+
+
+
+
+                        </td>
+
+                    </tr>
+
+
+                </table>
+            </div>
+        </div>
+        <!--Cast-->
+        <div class="casth">
+            <!--Head-->
+            <p class="castf">Cast</p>
+            <div class="row">
+                <div class="column2">
+                    <img class="cast" src="cast/TomCruise.jpg" alt="Tom Cruise" /><a href="https://de.wikipedia.org/wiki/Tom_Cruise" target="_blank"><span class="castname">Tom Cruise</span></a><span class="role">Ethan hunt</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/HenryCavill.jpg" alt="Henry Cavill" /><a href="https://en.wikipedia.org/wiki/Henry_Cavill" target="_blank"> Henry Cavill</a><span class="role">Mera</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/RFerguson.jpg" alt="Rebbeca Ferguson" /><a href="https://de.wikipedia.org/wiki/Rebecca_Ferguson_(Schauspielerin)" target="_blank"> Rebbeca Ferguson</a> <span>Ocean Master</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/SimonPegg.jpg" alt="Simon Pegg" /> <a href="https://de.wikipedia.org/wiki/Simon_Pegg" target="_blank">Simon Pegg</a><span>Atlanta</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/VanessaKirby.jpg" alt="Vanessa Kirby" /> <a href="https://de.wikipedia.org/wiki/Vanessa_Kirby" target="_blank"> Vanessa Kirby</a><span>Nuidis Vulko</span>
+                </div>
+                <div class="column2">
+                    <img class="cast" src="cast/missiond.jpg" alt="Christopher McQuarrie" /> <a href="https://de.wikipedia.org/wiki/Christopher_McQuarrie" target="_blank">Christopher McQuarrie</a><span>Director</span>
+                </div>
+            </div>
+            <hr />
+        </div>
+        <!--Trailer-->
+        <div class="casth">
+            <p class="castT">Watch the Trailer &nbsp;&nbsp;<i class="fas fa-video"></i></p>
+            <div class="row">
+                <div class="columnVT">
+                    <iframe class="videoT" src="https://www.youtube.com/embed/wb49-oV0F78"  allow="accelerometer;
+             autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <h3 class="tr">
+                        Mission Imposible Fallout
+                    </h3>
+                </div>
+                <!--User rating-->
+
+                <div class="Rating">
+
+                    <label for="myChoice"><span class="myrate">Rate this movie out of 10 <i class="fas fa-film"></i>:</span></label><br /><br />
+                    <input type="number" name="myChoice" 
+                           min="1" max="10"><br /><br />
+                    <form action="action.html" method="post">
+                        <textarea placeholder="Enter your comment" name="Add"  cols="40"
+                                  rows="3"></textarea><br><br>
+                        <button type="submit" name="submit" value="submit">Send</button>
+                        <button type="reset" name="reset" value="reset">Reset</button>
+                    </form>
+
+                </div>
+                <!-- Other Sites Rating table-->
+                <table class="t01">
+                    <tr>
+                        <th colspan="2">Rating on Other Sites </th>
+                    </tr>
+                    <tr>
+                        <td class=headtable>Rotten Tomatoes</td>
+                        <td>91%</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>IMBD</td>
+                        <td>9.1/10</td>
+
+                    </tr>
+                    <tr>
+                        <td class=headtable>Fandango</td>
+                        <td>4 Stars</td>
+
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        <hr id="seperate">
+        <p id="Likefont"> You might also like..</p>
+
+        <div id="seperate2">
+            <div id="alsolike">
+
+                <div id="Like1">
+                    <img src="action/captinmarvel.jpg" alt="catin marvel" class="immg" />
+                    <p>Captain Marvel </p>
+
+
+                </div>
+                <div id="Like2">
+                    <img class="immg" src="action/Venom.jpg" alt="Venom" />
+                    <p>Venom </p>
+
+                </div>
+                <div id="countdown">
+                    <p id="comingsoon"> Coming Soon</p>
+                    <img src="action/blackpanther.jpg" alt="blackpanther">
+
+                    <p id="demo"> Black Panther</p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Site footer -->
+    <footer>
+        <div class="footer-main-div">
+
+            <!-- Footer Navigation -->
+            <div class="footer-menu-one">
+                <h3>CATEGORIES: </h3>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="movies.html">MOVIES</a></li>
+                    <li><a href="tvshows.html">TV SHOWS</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                </ul>
+            </div>
+            <!-- Footer Contact -->
+            <div class="footer-menu-two">
+                <h3>CONTACT:</h3>
+                <ul>
+                    <li>Contact@colorfeed.com</li>
+                    <li>+20 1234 5678</li>
+                    <li>Copyright &copy; ColorFeed 2019, All Rights Reserved.</li>
+                </ul>
+            </div>
+            <!-- Footer Social-->
+            <div class="footer-social-icons">
+                <h3>Our Social Accounts:</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.yotube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
